@@ -86,6 +86,7 @@
         if (!validateOK) {
             failed = item;
             [self handleResult:NO failed:failed];
+            return;
         }
     }
     
